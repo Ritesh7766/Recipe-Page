@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+/*Header*/
+
+.container {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.header h1 {
+    margin-bottom: 20px;
+    font-size: 2.7em;
+}
+
+.description {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.description img {
+    height: fit-content;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.description p {
+    white-space: pre-line;
+    font-style: italic;
+}
+
+.pic img {
+    max-width: 100%;
+}
+
+/*Ingredients*/
+
+.ingredients h4 {
+    font-size: 1.7em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.food-item {
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.pre-requisite {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.inst p {
+    white-space: pre-line;
+    font-size: 1.2em;
+}
+
+/*Stykling checkbox*/
+.checkbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(184, 181, 181);
+}
+
+.checkbox:hover {
+    background-color: rgb(231, 229, 229);
+    transition-duration: 0.4s;
+}
+
+.checkbox-active {
+    background-color: rgb(247, 219, 59) !important;
+}
+
+/*Icons*/
+
+.quick-info {
+    display: flex;
+    margin: 20px;
+}
+
+.icon {
+    width: 30px;
+}
+
+.icon img {
+    max-width: 100%;
+}
+
+.stuff {
+    flex-grow: 1;
+    padding-left: 8px;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    box-shadow: 0 0 10px 5px #eeeded;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.lgt-gry {
+    color: rgb(179, 176, 176);
+    font-size: 0.7em;
+}
+
+.orng {
+    color: orange;
+}
+
+.subset {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Instructions*/
+
+.instructions h4 {
+    font-size: 1.7em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.step {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    background-color: rgba(255, 166, 0, 0.755);
+    border-radius: 5px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.num h2 {
+    color: white;
+}
+
+.direction p {
+    white-space: pre-line;
+}
+
+.source p {
+    color: #b3b3b3;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+    .subset {
+        flex-direction: column !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header h1 {
+        font-size: 1.5em !important;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .container {
+        margin: 5%;
+    }
+
+    .header h1 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .direction p {
+        white-space: inherit;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        white-space: inherit;
+    }
+
+    .inst p {
+        white-space: inherit;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .overview {
+        flex-direction: column !important;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .subset {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .quick-info {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .info {
+        flex-direction: column-reverse;
+    }
+
+    .overview {
+        flex-direction: row;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .subset {
+        flex-direction: row;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer * {
+    color: rgb(181, 179, 179);
+}
