@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://epic-liskov-da9f73.netlify.app/">
+    <a href="https://frosty-lamport-cdb458.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href = "https://github.com/Ritesh7766/Interior-Consultant">
+    <a href = "https://github.com/Ritesh7766/Recipe-Page">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/Ritesh7766/Interior-Consultant/blob/main/assets/demo.png)
+![screenshot](https://github.com/Ritesh7766/Recipe-Page/blob/main/assets/demo.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
